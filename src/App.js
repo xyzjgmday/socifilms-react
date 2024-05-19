@@ -29,12 +29,12 @@ function App() {
       </div>
 
       <div className="horror">
-        <hO />
+        <Horror />
       </div>
 
     </div>
 
-    
+
   )
 }
 

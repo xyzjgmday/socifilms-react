@@ -1,9 +1,9 @@
-import { Col, Container, Row, Button } from "react-bootstrap"
+import { Col, Container, Row, Button } from "react-bootstrap";
 
 const Intro = () => {
   return (
     <div className="intro">
-      <Container className="text-white text-center d-flex justify-content-center align-items-center">
+      <Container className="text-white text-center d-flex justify-content-center align-items-center h-100">
         <Row>
           <Col>
             <div className="title">NONTON DISINI GRATIS</div>
@@ -15,7 +15,7 @@ const Intro = () => {
         </Row>
       </Container>
     </div>
-  )
+  );
 }
 
-export default Intro
+export default Intro;
